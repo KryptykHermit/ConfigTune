@@ -1,4 +1,9 @@
-As a part of your task sequence you will need to create some PowerShell scripts in a location to be executed post-task sequence.  In this example, we will be creating a folder "C:\Program Files\Imaging\Scripts".
+As a part of your task sequence you will need to create some PowerShell scripts in a location to be executed post-task sequence.
+
+In this example, we will be creating the following folders under __C:\Program Files\Imaging__.
+1. Icons
+2. Scripts
+3. Wallpaper
 
 
 In your task sequence, you will need to create a step to inject a single line of registry code.
