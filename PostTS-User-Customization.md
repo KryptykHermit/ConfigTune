@@ -1,10 +1,15 @@
-As a part of your task sequence you will need to create some PowerShell scripts in a location to be executed post-task sequence.
+Open your task sequence and somewhere after the Apply Operating System step, create your 
+Begin by opening your task sequence and creating some steps to download some packages with custom data such as:
+1. File Associations
+2. Icons
+3. Scripts
+4. Tools
+5. Wallpaper
 
-In this example, we will be creating the following folders under __C:\Program Files\Imaging__.
-1. Icons
-2. Scripts
-3. Wallpaper
+![image info](./images/PostTS-User-Customization/Pre-Staged-Content-Layout.png)
+<IMAGE FILE HERE>
 
+These packages will be staged at __C:\Program Files\Imaging__ in similarly named folders.
 
 In your task sequence, you will need to create a step to inject a single line of registry code.
 Use REG ADD or, in this case, REG IMPORT with the below snippet.

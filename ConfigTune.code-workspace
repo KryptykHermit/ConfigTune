@@ -1,0 +1,69 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+        "unwantedRecommendations": [
+            "DavidAnson.vscode-markdownlint",
+            "firefox-devtools.vscode-firefox-debug",
+            "ms-vscode.notepadplusplus-keybindings"
+        ],
+        "recommendations": [
+            "eamodio.gitlens",
+            "flx86.flx-seti-monokai",
+            "github.github-vscode-theme",
+            "github.vscode-pull-request-github",
+            "mhutchie.git-graph",
+            "shardulm94.trailing-spaces",
+            "vscode-icons-team.vscode-icons",
+            "yzhang.markdown-all-in-one"
+        ]
+    },
+	"settings": {
+		"breadcrumbs.enabled": true,
+        "editor.bracketPairColorization.enabled": true,
+        "editor.cursorBlinking": "expand",
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.cursorStyle": "line",
+        "editor.cursorSurroundingLines": 5,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.detectIndentation": false,
+        "editor.fontFamily": "'FiraCode Nerd Font Mono','CaskaydiaCove Nerd Font Mono','SpaceMono Nerd Font Mono'",
+        "editor.fontSize": 14,
+        "editor.guides.bracketPairs":"active",
+        "editor.insertSpaces": true,
+        "editor.minimap.enabled": true,
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "on",
+            "strings": "on"
+        },
+        "editor.quickSuggestionsDelay": 5,
+        "editor.tabCompletion": "on",
+        "editor.tabSize": 4,
+        "files.associations": {
+            "*.md": "markdown"
+        },
+        "files.defaultLanguage": "markdown",
+        "git.allowForcePush": true,
+        "git.autofetch": true,
+        "git.autofetchPeriod": 180,
+        "git.enableStatusBarSync": true,
+        "git.followTagsWhenSync": true,
+        "git.postCommitCommand": "push",
+        "git.showPushSuccessNotification": true,
+        "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono','CaskaydiaCove Nerd Font Mono','SpaceMono Nerd Font Mono'",
+        "terminal.integrated.fontSize": 14,
+        "terminal.integrated.fontWeight": "normal",
+        "window.zoomLevel": 0,
+        "workbench.colorTheme": "Flx Seti Monokai",
+        //"workbench.colorTheme": "Dracula At Night","Seti Monokai: Original",
+        "workbench.iconTheme": "vscode-icons",
+        "workbench.tree.indent": 15,
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "files.autoGuessEncoding": true,
+        "markdown.extension.completion.enabled": true
+	}
+}
